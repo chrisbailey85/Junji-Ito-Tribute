@@ -78,12 +78,15 @@ h2 {
 .BP {
   width:2.2rem;
   height: 2.2rem;
-  position: relative;
+  margin: 0 1rem;
+  /* position: relative;
   top: 0.3rem;
-  right: 0.5rem;
-  margin-left: 20px;
+  right: 0.5rem; */
+  /* margin-left: 20px; */
 }
 .book-title {
+  display: flex;
+  align-items: center;
   font-size: 1.5rem;
   list-style: none;
   font-weight: 900;
