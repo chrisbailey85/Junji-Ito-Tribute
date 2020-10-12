@@ -4,20 +4,18 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   position: relative;
-  background-image:  url("./images/spiral-305142.svg"), linear-gradient(rgb(0, 0, 0), rgb(29, 19, 19));
+  background-image: url("./images/spiral-305142.svg"),
+    linear-gradient(rgb(0, 0, 0), rgb(29, 19, 19));
   background-size: 4rem;
   z-index: 1;
-  text-shadow: 1px 1px 5px #313131 ;
+  text-shadow: 1px 1px 5px #313131;
 }
 main {
   position: relative;
-  color: #F2F2F2;
+  color: #f2f2f2;
   letter-spacing: 0.08rem;
-  line-height: 1.5rem;
   max-width: 1024px;
   margin: 0 auto;
   z-index: 2;
@@ -28,26 +26,26 @@ main {
 p,
 li {
   padding-top: 1rem;
-  font-size: 1.5rem;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  font-family: "Roboto", sans-serif;
 }
 #title {
   padding: 2rem;
   font-size: 2.2rem;
+  line-height: 2.6rem;
   text-align: center;
 }
 #titlej {
   display: block;
-  padding-top: 1rem;
   font-family: "Noto Serif JP", serif;
-
 }
 #image {
   display: block;
   width: 50%;
   height: auto;
   border: #1c1819 ridge 0.4rem;
-  box-shadow: 0px 0px 5px 3px #F3EFE0;
+  box-shadow: 0px 0px 5px 3px #f3efe0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -55,119 +53,117 @@ li {
 h2 {
   padding-top: 2rem;
   text-align: center;
-  font-size: 1.5rem;
-  text-shadow:  1px 1px 1px #1c1819;
-
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 1px #1c1819;
 }
 
 #img-caption {
   text-align: center;
 }
 #tribute-info {
-  margin-left: 1rem;
-  margin-right: 2rem;
+  margin: 0 2rem;
   text-align: justify;
 }
 
 .book-info {
   list-style: none;
-  margin-left: 1rem;
-  margin-right: 3rem;
+  margin: 0 2rem;
   list-style: none;
   text-align: justify;
 }
 
 .BP {
-  width:2.2rem;
+  width: 2.2rem;
   height: 2.2rem;
   position: relative;
   top: 0.3rem;
   right: 0.5rem;
-  margin-left: 20px;
+  margin-left: 1.3rem;
 }
 .book-title {
   font-size: 1.5rem;
   list-style: none;
-  font-weight: 900;
+  font-weight: 700;
 }
-h1, h2, .book-title {
-  font-family: 'Domine', serif;
+h1,
+h2,
+.book-title {
+  font-family: "Domine", serif;
 }
-.BP{
+.BP {
   animation-name: spin;
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 
-
-.find-out-more{
+.find-out-more {
   display: flex;
   max-width: 1024px;
   justify-content: center;
   align-items: center;
-  padding: 4rem 1rem;  
+  padding: 4rem 1rem;
 }
-a{
-  color: #F2F2F2;
+a {
+  color: #f2f2f2;
   transition: all 0.5s ease-in-out;
 }
-a:hover, .icon:hover {
-  color: black;
+a:hover,
+.icon:hover {
+  color: rgb(71, 71, 71);
 }
-.icon{
-  color: #F2F2F2;
+.icon {
+  color: #f2f2f2;
   font-size: 1.5rem;
   padding-left: 1rem;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-footer{
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   padding: 2rem 0;
-  color: #F2F2F2;
+  color: #f2f2f2;
   z-index: 3;
-  font-family: 'Domine', serif;
+  font-family: "Domine", serif;
 }
 footer p {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-@keyframes spin{
-  0%{
-    transform: rotateZ(0deg)
+@keyframes spin {
+  0% {
+    transform: rotateZ(0deg);
   }
-  100%{
+  100% {
     transform: rotateZ(360deg);
   }
 }
-@media  (max-width: 758px) {
-  #image{
+@media (max-width: 758px) {
+  #image {
     width: 75%;
   }
   p,
-li {
-  padding-top: 1rem;
-  font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
-}
-#title {
-  padding: 2rem;
-  font-size: 1.8rem;
-  text-align: center;
-}
-#titlej {
-  display: block;
-  padding-top: 1rem;
-  font-family: "Noto Serif JP", serif;
-
-}
-.book-title {
-  font-size: 1.3rem;
-  list-style: none;
-  font-weight: 900;
-}
+  li {
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+  }
+  #title {
+    padding: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  #titlej {
+    display: block;
+    padding-top: 1rem;
+    font-family: "Noto Serif JP", serif;
+  }
+  .book-title {
+    font-size: 1.3rem;
+    list-style: none;
+    font-weight: 900;
+  }
 }
